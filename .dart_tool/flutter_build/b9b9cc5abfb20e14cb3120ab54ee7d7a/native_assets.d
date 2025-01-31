@@ -1,0 +1,1 @@
+ /Users/alimazoyadavid/Documents/dev/mobile_projects/flutter_apps/moniepoint_test/.dart_tool/flutter_build/b9b9cc5abfb20e14cb3120ab54ee7d7a/native_assets.yaml: 
