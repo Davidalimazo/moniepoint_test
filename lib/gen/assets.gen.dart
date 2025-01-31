@@ -89,6 +89,10 @@ class $AssetsImagesPngGen {
   AssetGenImage get sparkle =>
       const AssetGenImage('assets/images/png/sparkle.png');
 
+  /// File path: assets/images/png/splash_background.png
+  AssetGenImage get splashBackground =>
+      const AssetGenImage('assets/images/png/splash_background.png');
+
   /// File path: assets/images/png/success_image.png
   AssetGenImage get successImage =>
       const AssetGenImage('assets/images/png/success_image.png');
@@ -105,6 +109,7 @@ class $AssetsImagesPngGen {
         paypalBanner,
         playStore512,
         sparkle,
+        splashBackground,
         successImage
       ];
 }

@@ -1,6 +1,19 @@
 import "package:flutter/material.dart";
 
 abstract class AppColors {
+  /// Theme Colors
+  static const primary = Color(0xFFFC9E12);
+  static const secondary = Color(0xFFF9EDDF);
+  static const secondaryExtraLight = Color(0xFFFF8F6F3);
+
+  // Dark Shades
+  static const darkShade18 = Color(0xFF181818);
+  static const darkShade20 = Color(0xFF232220);
+  static const darkShade2B = Color(0xFF2B2B2B);
+  static const darkShade49 = Color(0xFF4C4B49);
+  static const darkShade73 = Color(0xFF737373);
+  static const darkShade96 = Color(0xFFB7AA96);
+
   // Black Colors
   static const pBl100 = Color(0xFF000000);
   static const pBl101 = Color(0xFF001013);

@@ -91,11 +91,29 @@ abstract class AppLocalizations {
     Locale('en')
   ];
 
-  /// No description provided for @title.
+  /// No description provided for @realEst.
   ///
   /// In en, this message translates to:
   /// **'Real EST'**
-  String get title;
+  String get realEst;
+
+  /// No description provided for @real.
+  ///
+  /// In en, this message translates to:
+  /// **'Real'**
+  String get real;
+
+  /// No description provided for @realEstate.
+  ///
+  /// In en, this message translates to:
+  /// **'Real Estate'**
+  String get realEstate;
+
+  /// No description provided for @est.
+  ///
+  /// In en, this message translates to:
+  /// **'EST'**
+  String get est;
 
   /// No description provided for @login.
   ///

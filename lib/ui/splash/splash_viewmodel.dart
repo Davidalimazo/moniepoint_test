@@ -1,13 +1,10 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moniepoint_test/model/user_model.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/widgets.dart';
+import 'package:go_router/go_router.dart';
+import 'package:moniepoint_test/config/router/routes.dart';
 
-
-// ViewModel
-class UserViewModel extends StateNotifier<User> {
-  UserViewModel() : super(User(name: '', age: 0));
-
-  void updateUser(String name, int age) {
-    state = User(name: name, age: age);
+class SplashViewModel {
+  navigate({required BuildContext context}) {
+    context.goNamed(AppRoutes.homeView);
   }
 }
-

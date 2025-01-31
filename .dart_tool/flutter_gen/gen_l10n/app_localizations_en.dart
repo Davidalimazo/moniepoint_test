@@ -5,7 +5,16 @@ class AppLocalizationsEn extends AppLocalizations {
   AppLocalizationsEn([String locale = 'en']) : super(locale);
 
   @override
-  String get title => 'Real EST';
+  String get realEst => 'Real EST';
+
+  @override
+  String get real => 'Real';
+
+  @override
+  String get realEstate => 'Real Estate';
+
+  @override
+  String get est => 'EST';
 
   @override
   String get login => 'Sign in';
