@@ -1,5 +1,6 @@
 
 # FVM Version Cache
 .fvm/
-build/
+build/app/outputs
 env/prod.env
+.dart_tool/flutter_build/
