@@ -115,6 +115,12 @@ abstract class AppLocalizations {
   /// **'EST'**
   String get est;
 
+  /// No description provided for @search.
+  ///
+  /// In en, this message translates to:
+  /// **'Search'**
+  String get search;
+
   /// No description provided for @login.
   ///
   /// In en, this message translates to:
@@ -138,6 +144,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'SIGN IN'**
   String get signin;
+
+  /// No description provided for @listVariants.
+  ///
+  /// In en, this message translates to:
+  /// **'List of Variants'**
+  String get listVariants;
 
   /// No description provided for @phoneNumber.
   ///

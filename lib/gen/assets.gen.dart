@@ -162,6 +162,9 @@ class $AssetsImagesSvgGen {
   /// File path: assets/images/svg/delete.svg
   String get delete => 'assets/images/svg/delete.svg';
 
+  /// File path: assets/images/svg/direction.svg
+  String get direction => 'assets/images/svg/direction.svg';
+
   /// File path: assets/images/svg/doc_download.svg
   String get docDownload => 'assets/images/svg/doc_download.svg';
 
@@ -210,6 +213,9 @@ class $AssetsImagesSvgGen {
   /// File path: assets/images/svg/home.svg
   String get home => 'assets/images/svg/home.svg';
 
+  /// File path: assets/images/svg/list.svg
+  String get list => 'assets/images/svg/list.svg';
+
   /// File path: assets/images/svg/live_chat.svg
   String get liveChat => 'assets/images/svg/live_chat.svg';
 
@@ -233,6 +239,9 @@ class $AssetsImagesSvgGen {
 
   /// File path: assets/images/svg/notifications.svg
   String get notifications => 'assets/images/svg/notifications.svg';
+
+  /// File path: assets/images/svg/page_info.svg
+  String get pageInfo => 'assets/images/svg/page_info.svg';
 
   /// File path: assets/images/svg/paypal.svg
   String get paypal => 'assets/images/svg/paypal.svg';
@@ -273,6 +282,9 @@ class $AssetsImagesSvgGen {
   /// File path: assets/images/svg/sparkle.svg
   String get sparkle => 'assets/images/svg/sparkle.svg';
 
+  /// File path: assets/images/svg/stack.svg
+  String get stack => 'assets/images/svg/stack.svg';
+
   /// File path: assets/images/svg/success_photo.svg
   String get successPhoto => 'assets/images/svg/success_photo.svg';
 
@@ -311,6 +323,7 @@ class $AssetsImagesSvgGen {
         dataPurchase,
         debitCard,
         delete,
+        direction,
         docDownload,
         eSim,
         edit,
@@ -327,6 +340,7 @@ class $AssetsImagesSvgGen {
         help,
         history,
         home,
+        list,
         liveChat,
         loading,
         logo,
@@ -335,6 +349,7 @@ class $AssetsImagesSvgGen {
         messageNotif,
         ninemobile,
         notifications,
+        pageInfo,
         paypal,
         policy,
         power,
@@ -348,6 +363,7 @@ class $AssetsImagesSvgGen {
         shoppingCart,
         signin,
         sparkle,
+        stack,
         successPhoto,
         tagRight,
         tax,

@@ -17,6 +17,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get est => 'EST';
 
   @override
+  String get search => 'Search';
+
+  @override
   String get login => 'Sign in';
 
   @override
@@ -27,6 +30,9 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get signin => 'SIGN IN';
+
+  @override
+  String get listVariants => 'List of Variants';
 
   @override
   String get phoneNumber => 'Phone Number';

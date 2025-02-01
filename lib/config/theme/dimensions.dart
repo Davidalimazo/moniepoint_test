@@ -1,4 +1,5 @@
 import "package:flutter/material.dart";
+import "package:flutter/widgets.dart";
 import "package:flutter_screenutil/flutter_screenutil.dart";
 
 abstract class AppDimens {
@@ -24,4 +25,20 @@ abstract class AppDimens {
   static SizedBox sizedBoxHeight10 = SizedBox(height: 10.h);
   static SizedBox sizedBoxWidth(double width) => SizedBox(width: width.h);
   static SizedBox sizedBoxHeight(double height) => SizedBox(height: height.h);
+}
+
+class AppSizes {
+  static late MediaQueryData _mediaQueryData;
+  static late double screenWidth;
+  static late double screenHeight;
+  static late double blockSizeHorizontal;
+  static late double blockSizeVertical;
+
+  void initSizes({required BuildContext context}) {
+    _mediaQueryData = MediaQuery.of(context);
+    screenWidth = _mediaQueryData.size.width;
+    screenHeight = _mediaQueryData.size.height;
+    blockSizeHorizontal = screenWidth / 100;
+    blockSizeVertical = screenHeight / 100;
+  }
 }
