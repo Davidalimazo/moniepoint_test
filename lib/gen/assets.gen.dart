@@ -65,6 +65,10 @@ class $AssetsImagesPngGen {
   /// File path: assets/images/png/logo.png
   AssetGenImage get logo => const AssetGenImage('assets/images/png/logo.png');
 
+  /// File path: assets/images/png/marker.png
+  AssetGenImage get marker =>
+      const AssetGenImage('assets/images/png/marker.png');
+
   /// File path: assets/images/png/onboarding_photo_fast_top.png
   AssetGenImage get onboardingPhotoFastTop =>
       const AssetGenImage('assets/images/png/onboarding_photo_fast_top.png');
@@ -103,6 +107,7 @@ class $AssetsImagesPngGen {
         guard,
         loading,
         logo,
+        marker,
         onboardingPhotoFastTop,
         onboardingPhotoZeroFees,
         paypal,
