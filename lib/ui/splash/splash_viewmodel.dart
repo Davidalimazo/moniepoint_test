@@ -5,6 +5,6 @@ import 'package:moniepoint_test/config/router/routes.dart';
 
 class SplashViewModel {
   navigate({required BuildContext context}) {
-    context.goNamed(AppRoutes.homeView);
+    context.goNamed(AppRoutes.searchView.name);
   }
 }

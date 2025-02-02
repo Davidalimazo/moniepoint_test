@@ -1,5 +1,5 @@
-import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:moniepoint_test/ui/home/home_viewmodel.dart';
+import 'package:moniepoint_test/ui/search/search_viewmodel.dart';
+import 'package:riverpod/riverpod.dart';
 
-final homeViewModelProvider =
-    StateNotifierProvider<HomeViewModel, int>((ref) => HomeViewModel(0));
+
+final homeViewProvider = StateNotifierProvider<HomeViewModel, int>((ref) => HomeViewModel(0));

@@ -51,12 +51,24 @@ class $AssetsImagesGen {
 class $AssetsImagesPngGen {
   const $AssetsImagesPngGen();
 
+  /// File path: assets/images/png/apartment1.jpg
+  AssetGenImage get apartment1 =>
+      const AssetGenImage('assets/images/png/apartment1.jpg');
+
   /// File path: assets/images/png/credit_card_filled.png
   AssetGenImage get creditCardFilled =>
       const AssetGenImage('assets/images/png/credit_card_filled.png');
 
   /// File path: assets/images/png/guard.png
   AssetGenImage get guard => const AssetGenImage('assets/images/png/guard.png');
+
+  /// File path: assets/images/png/handsome.jpg
+  AssetGenImage get handsome =>
+      const AssetGenImage('assets/images/png/handsome.jpg');
+
+  /// File path: assets/images/png/living_space.jpg
+  AssetGenImage get livingSpace =>
+      const AssetGenImage('assets/images/png/living_space.jpg');
 
   /// File path: assets/images/png/loading.png
   AssetGenImage get loading =>
@@ -89,6 +101,9 @@ class $AssetsImagesPngGen {
   AssetGenImage get playStore512 =>
       const AssetGenImage('assets/images/png/play_store_512.png');
 
+  /// File path: assets/images/png/sofa.jpg
+  AssetGenImage get sofa => const AssetGenImage('assets/images/png/sofa.jpg');
+
   /// File path: assets/images/png/sparkle.png
   AssetGenImage get sparkle =>
       const AssetGenImage('assets/images/png/sparkle.png');
@@ -103,8 +118,11 @@ class $AssetsImagesPngGen {
 
   /// List of all assets
   List<AssetGenImage> get values => [
+        apartment1,
         creditCardFilled,
         guard,
+        handsome,
+        livingSpace,
         loading,
         logo,
         marker,
@@ -113,6 +131,7 @@ class $AssetsImagesPngGen {
         paypal,
         paypalBanner,
         playStore512,
+        sofa,
         sparkle,
         splashBackground,
         successImage
@@ -226,6 +245,9 @@ class $AssetsImagesSvgGen {
 
   /// File path: assets/images/svg/loading.svg
   String get loading => 'assets/images/svg/loading.svg';
+
+  /// File path: assets/images/svg/location.svg
+  String get location => 'assets/images/svg/location.svg';
 
   /// File path: assets/images/svg/logo.svg
   String get logo => 'assets/images/svg/logo.svg';
@@ -348,6 +370,7 @@ class $AssetsImagesSvgGen {
         list,
         liveChat,
         loading,
+        location,
         logo,
         logout,
         mastercard,
