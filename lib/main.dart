@@ -6,10 +6,9 @@ import 'package:moniepoint_test/config/theme/app_theme.dart';
 import 'package:moniepoint_test/main.dart';
 export "package:flutter_gen/gen_l10n/app_localizations.dart";
 import "package:flutter_screenutil/flutter_screenutil.dart";
-import "package:fluttertoast/fluttertoast.dart";
 
-void main() async{
-    WidgetsFlutterBinding.ensureInitialized();
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setPreferredOrientations([
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
@@ -25,13 +24,9 @@ class MyApp extends StatefulWidget {
 }
 
 class _MyAppState extends State<MyApp> {
-  late FToast fToast;
-
   @override
   void initState() {
     super.initState();
-    fToast = FToast();
-    fToast.init(context);
   }
 
   @override
@@ -45,7 +40,6 @@ class _MyAppState extends State<MyApp> {
             behavior: HitTestBehavior.opaque,
             child: MaterialApp.router(
               routerConfig: router,
-              builder: FToastBuilder(),
               debugShowCheckedModeBanner: false,
               title: "EST",
               theme: CustomTheme.lightTheme(),

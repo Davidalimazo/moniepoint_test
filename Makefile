@@ -50,3 +50,5 @@ gen-i:
 	dart pub global activate flutter_gen
 gen:
 	dart run build_runner build
+
+

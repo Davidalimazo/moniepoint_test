@@ -75,18 +75,6 @@ class _SearchViewState extends ConsumerState<SearchView> {
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // FloatingActionButton(
-                  //   onPressed: () {},
-                  //   shape: RoundedRectangleBorder(
-                  //     borderRadius: BorderRadius.circular(30.r),
-                  //   ),
-                  //   child: SvgPicture.asset(
-                  //     Assets.images.svg.stack,
-                  //     width: 24.w,
-                  //     height: 24.h,
-                  //     color: AppColors.pW100,
-                  //   ),
-                  // ),
                   AnimatedCustomeBtn(
                     icon: Assets.images.svg.stack,
                     onPress: () {},
@@ -96,18 +84,6 @@ class _SearchViewState extends ConsumerState<SearchView> {
                     icon: Assets.images.svg.direction,
                     onPress: () {},
                   ),
-                  // FloatingActionButton(
-                  //   onPressed: () {},
-                  //   shape: RoundedRectangleBorder(
-                  //     borderRadius: BorderRadius.circular(30.r),
-                  //   ),
-                  //   child: SvgPicture.asset(
-                  //     Assets.images.svg.direction,
-                  //     width: 24.w,
-                  //     height: 24.h,
-                  //     color: AppColors.pW100,
-                  //   ),
-                  // ),
                 ],
               ),
               Expanded(child: Container()),
